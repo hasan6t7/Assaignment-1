@@ -246,6 +246,7 @@ nav button{
     font-weight: 600;
     line-height: 19px;
     text-align: left;
+    cursor: pointer;
 }
 
 #card-2 .btn-2{
@@ -259,6 +260,7 @@ nav button{
     font-weight: 600;
     line-height: 19px;
     text-align: left;
+    cursor: pointer;
 }
 #card-2 .btn-3{
     border-radius: 8px;
@@ -271,6 +273,7 @@ nav button{
     font-weight: 600;
     line-height: 19px;
     text-align: left;
+    cursor: pointer;
 }
 
 /* Quote section style  */
@@ -312,6 +315,81 @@ nav button{
     line-height: 24px;
     text-align: left;
 }
+
+
+/* Opinion section style  */
+
+#opinion{
+    height: 409px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-bottom: 112px;
+    
+}
+
+#opinion .opinion-item{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    align-items: center;
+    margin-left: 20px;
+    margin-right:20px;
+}
+#opinion h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align:center;
+    
+}
+#opinion h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+#opinion .select{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+#opinion .select p{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+#opinion select{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 14px 10px 14px;
+    color: rgba(14, 14, 14, 0.6);
+    
+    
+}
+#opinion .select-no-1{
+    background: rgb(198, 228, 214);
+}
+
+
+
 
 
 /* News Section style  */
