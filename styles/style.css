@@ -8,11 +8,51 @@ body{
     margin-right: 160px;
 }
 
+/* nav styles  */
+
+header{
+    
+    height:100px;
+    
+    background: rgb(245, 245, 245);
+    margin-bottom: 80px;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: left;
+    justify-content: space-between;
+}
+nav h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+}
+
+nav button{
+    width: 116px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;   
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* Hero section style  */
+
 #hero{
-    /* width: 1280px;
-    height: 560px;
-    margin-left: 160px;
-    margin-right: 160px; */
+    
     background: rgb(198, 228, 214);
     display: flex;
     flex-direction: row;
@@ -33,7 +73,6 @@ body{
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -43,7 +82,6 @@ body{
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
-    letter-spacing: 0%;
     text-align: left;
 
 }
@@ -57,8 +95,8 @@ body{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
     text-align: left;
+    cursor: pointer;
 }
 
 
@@ -92,7 +130,6 @@ body{
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left;
     
     
@@ -114,7 +151,6 @@ body{
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -167,7 +203,6 @@ body{
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
     text-align: left;
     margin-bottom: 24px;
 }
@@ -177,7 +212,6 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -187,7 +221,6 @@ body{
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left;
     margin-top: 25px;
     margin-bottom: 12px;
@@ -198,7 +231,6 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left;
     margin-bottom: 64px;
 }
@@ -213,7 +245,6 @@ body{
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -227,7 +258,6 @@ body{
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
 }
 #card-2 .btn-3{
@@ -240,7 +270,6 @@ body{
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -261,7 +290,6 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left ;
     margin-bottom: 12px;
     padding-top: 30px;
@@ -273,7 +301,6 @@ body{
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left;
     margin-bottom: 4px;
 }
@@ -283,7 +310,6 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -379,7 +405,7 @@ body{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: rgb(255, 255, 255);
+    
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 40px;
@@ -387,11 +413,16 @@ body{
     line-height: 48px;
     letter-spacing: 0%;
     text-align: left;
+    padding: 40px;
 }
 
 #donate .taka h2:hover{
-    background-color:rgb(198, 228, 214);
+    background-color:rgb(0, 106, 80);
 }
+#donate .taka .taka-200{
+    background-color: rgb(198, 228, 214);
+}
+
 
 #donate input{
     margin-top: 32px;
@@ -420,4 +451,100 @@ body{
     justify-content: center;
     margin-left: 564.5px;
     margin-right: 564.5px;
+}
+
+
+/* Subscribe section style  */
+
+#subscribe{
+    height: 295px;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-top: 80px;
+}
+
+#subscribe h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    height: 48px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#subscribe p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    height: 48px;
+    text-align: center;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 24px;
+}
+
+
+#subscribe input[type="gmail"]{
+    width: 600px;
+    height: 55px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-left: 100px;
+}
+
+#subscribe input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 23px;
+    
+}
+#subscribe .subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    text-align: center;
+}
+
+
+/* footer section style  */
+
+footer{
+    height: 226px;
+    padding: 50px 160px 50px 160px;
+    background: rgb(255, 255, 255);
+    margin-top: 80px;
+
+}
+
+footer h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 64px;
+
+
+}
+
+footer .icon{
+    
+    display: flex;
+    gap: 16px; 
+    align-items: center;
+    justify-content: center;
+
 }
