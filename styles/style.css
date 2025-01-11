@@ -244,4 +244,101 @@ body{
     text-align: left;
 }
 
+/* Quote section style  */
 
+#quote{
+    height: 256px;
+    /* padding: 48px 24px 48px 24px; */
+    margin-top: 32px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+}
+
+#quote p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left ;
+    margin-bottom: 12px;
+}
+
+#quote h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 4px;
+}
+#quote .subtitle{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+/* News Section style  */
+
+#news{
+    margin-top: 80px;
+
+}
+
+#news .news-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    
+    
+}
+
+#news .date-time{
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#news .al-img{
+    border-radius: 24px;
+   
+}
+
+#news h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+#news p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
